@@ -11,9 +11,10 @@ apt-get update -y --fix-missing
 apt-get install -y \
     cmake \
     git \
-    software-properties-common
-
-# vim 8
-add-apt-repository -y ppa:jonathonf/vim \
-&& apt-get update -y --fix-missing \
-&& DEBIAN_FRONTEND=noninteractive apt-get install -y vim
+    software-properties-common \
+    htop \
+    tree \
+    less \
+    wget \
+    yum \
+    tmux

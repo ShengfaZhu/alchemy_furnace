@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker run -it --rm alchemy_furnace:1.0 bash
+docker run -it --rm -v /Users/shengfazhu/ws/:/home/shengfazhu/ws/ \
+    alchemy_furnace:python bash
